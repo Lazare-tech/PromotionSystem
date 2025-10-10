@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\HomeController;
 
 /*
 |--------------------------------------------------------------------------
@@ -13,6 +14,10 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+// Route::get('/', function () {
+//     return view('welcome');
+// });
+Route::get('', [HomeController::class, 'index'])->name('home');
+Route::get('/createpromo', [HomeController::class, 'createpromo'])->name('createpromo');
+Route::get('/tous-les-promos', [HomeController::class, 'all_promo'])->name('all_promo');
+Route::get('/detail-promo', [HomeController::class, 'detail_promo'])->name('detail_promo');

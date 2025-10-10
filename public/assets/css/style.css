@@ -1,0 +1,175 @@
+/* home page  */
+  body {
+      background-color: #f8f9fa;
+    }
+
+    /* Navbar */
+    .navbar-brand {
+      font-weight: 700;
+      color: #3b3bf8;
+    }
+
+    .navbar-brand:hover {
+      color: #2222cc;
+    }
+
+    /* Hero */
+    .hero {
+      background: url('images/hero.jpg') center/cover no-repeat;
+      border-radius: 12px;
+      color: #fff;
+      padding: 100px 30px;
+      position: relative;
+    }
+
+    .hero::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: rgba(0, 0, 0, 0.4);
+      border-radius: 12px;
+    }
+
+    .hero-content {
+      position: relative;
+      z-index: 2;
+    }
+
+    .hero h1 span {
+      color: #ff9800;
+    }
+
+    .btn-white {
+      background-color: #fff;
+      color: #333;
+      border: none;
+      transition: all 0.3s ease;
+    }
+
+    .btn-white:hover {
+      background-color: #eee;
+    }
+
+    .btn-outline-white {
+      color: #fff;
+      border: 1px solid #fff;
+      transition: all 0.3s ease;
+    }
+
+    .btn-outline-white:hover {
+      background-color: #fff;
+      color: #000;
+    }
+    
+    /* create promo page  */
+    .card {
+      border: 1px solid #e6e6ef;
+      border-radius: 12px;
+    }
+    .form-label {
+      font-weight: 600;
+    }
+    .upload-box {
+      border: 2px dashed #cdd5e0;
+      border-radius: 12px;
+      background-color: #fdfdfd;
+      text-align: center;
+      padding: 40px 20px;
+      color: #6c757d;
+      transition: all 0.2s;
+    }
+    .upload-box:hover {
+      border-color: #007bff;
+      background-color: #f1f7ff;
+    }
+    /* all promo page  */
+    .filter-container {
+  border: 1px solid #e9ecef;
+}
+
+.filter-btn {
+  border: 1px solid #dee2e6;
+  background-color: #fff;
+  border-radius: 50px;
+  padding: 6px 16px;
+  font-size: 0.9rem;
+  transition: all 0.2s ease-in-out;
+}
+
+.filter-btn:hover {
+  background-color: #f8f9fa;
+}
+
+.filter-btn.active {
+  background-color: #0d6efd;
+  color: #fff;
+  border-color: #0d6efd;
+}
+
+.input-group .form-control:focus {
+  box-shadow: none;
+  border-color: #0d6efd;
+}
+
+.input-group-text {
+  border-color: #dee2e6;
+}
+
+.fa-filter {
+  font-size: 1rem;
+}
+
+
+
+/* 🖥️ Desktop (même ligne) */
+.filter-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  gap: 1.6rem;
+}
+
+
+
+/*  Tablette : chaque bloc sur une ligne */
+@media (max-width: 992px) {
+  .filter-wrapper {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .search-bar,
+  .categories,
+  .sort-filter {
+    width: 100%;
+  }
+
+  .categories {
+    justify-content: center;
+  }
+}
+
+/* 📞 Téléphone : réduire les tailles */
+@media (max-width: 576px) {
+  .filter-btn {
+    font-size: 0.8rem;
+    padding: 5px 12px;
+  }
+
+  .form-control {
+    font-size: 0.9rem;
+  }
+
+  .btn.dropdown-toggle {
+    font-size: 0.9rem;
+  }
+
+  .fa-filter {
+    font-size: 0.9rem;
+  }
+
+  .filter-container {
+    padding: 1rem;
+  }
+}
