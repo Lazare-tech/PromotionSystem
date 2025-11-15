@@ -15,7 +15,7 @@
     <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
 
       <!-- Barre de recherche -->
-      <form class="d-flex align-items-center mx-auto my-3 my-lg-0 w-100" style="max-width: 500px;">
+      <form class="d-flex align-items-center mx-auto my-3 my-lg-0 w-100" style="max-width: 400px;">
         <div class="input-group">
           <span class="input-group-text bg-white border-end-0">
             <i class="fas fa-search text-muted"></i>
@@ -26,6 +26,10 @@
 
       <!-- Liens -->
       <ul class="navbar-nav align-items-center ms-lg-3">
+      <li class="nav-item me-2">
+          <a class="nav-link fw-semibold" href="{{ route('home') }}">Accueil</a>
+        </li>
+
         <li class="nav-item me-2">
           <a class="nav-link fw-semibold" href="{{ route('all_promo') }}">Toutes les promos</a>
         </li>

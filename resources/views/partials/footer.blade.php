@@ -17,11 +17,11 @@
       <!-- Catégories -->
       <div class="col-md-4 col-lg-3">
         <h6 class="fw-bold text-uppercase mb-3 text-warning">Catégories</h6>
-        <ul class="list-unstyled mb-0">
-          <li><a href="#" class="text-secondary text-decoration-none d-block mb-2"><i class="fas fa-tshirt me-2"></i>Vêtements</a></li>
-          <li><a href="#" class="text-secondary text-decoration-none d-block mb-2"><i class="fas fa-shoe-prints me-2"></i>Chaussures</a></li>
-          <li><a href="#" class="text-secondary text-decoration-none d-block mb-2"><i class="fas fa-wine-bottle me-2"></i>Boissons</a></li>
-          <li><a href="#" class="text-secondary text-decoration-none d-block"><i class="fas fa-sunglasses me-2"></i>Accessoires</a></li>
+        <ul class="list-unstyled mb-0 ">
+          <li><a href="#" class="text-secondary text-decoration-none d-block mb-2">Vêtements</a></li>
+          <li><a href="#" class="text-secondary text-decoration-none d-block mb-2">Chaussures</a></li>
+          <li><a href="#" class="text-secondary text-decoration-none d-block mb-2">Boissons</a></li>
+          <li><a href="#" class="text-secondary text-decoration-none d-block">Accessoires</a></li>
         </ul>
       </div>
 

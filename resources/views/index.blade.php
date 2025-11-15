@@ -88,10 +88,9 @@
                             <p class="text-success fw-semibold small mb-2">Économie : 100.00€</p>
                             <div class="d-flex align-items-center text-muted small mb-3">
                                 <i class="far fa-clock me-1"></i>Expire le 18/01/2024
-                                <span class="ms-3"><i class="fas fa-eye me-1"></i>187</span>
-                                <span class="ms-3"><i class="fas fa-heart me-1 text-danger"></i>34</span>
+                            <span class="ms-3">4.5<i class="fas fa-star me-1 text-warning"></i>34 Avis</span>
                             </div>
-                            <div class="d-flex justify-content-between align-items-center">
+                            {{-- <div class="d-flex justify-content-between align-items-center">
                                 <a href="{{ route('detail_promo') }}" class="btn btn-primary w-75">Voir la promo</a>
 
                                 <div class="d-flex align-items-center">
@@ -100,7 +99,7 @@
                                     <button class="btn btn-outline-light border"><i
                                             class="fas fa-share-alt text-dark"></i></button>
                                 </div>
-                            </div>
+                            </div> --}}
                         </div>
                     </div>
                 </div>

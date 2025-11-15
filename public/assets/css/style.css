@@ -173,3 +173,57 @@
     padding: 1rem;
   }
 }
+/* A propos  */
+  /* Section "À propos" */
+    .hero-apropos {
+      background: linear-gradient(135deg, #4a90e2, #7b61ff);
+      color: white;
+      text-align: center;
+      padding: 100px 20px;
+    }
+
+    /* Carte des valeurs */
+    .valeur-card {
+      background: #fff;
+      border-radius: 1rem;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+      padding: 40px 20px;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      text-align: center;
+      height: 100%;
+    }
+
+    .valeur-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    }
+
+    .valeur-icon {
+      font-size: 40px;
+      color: #4a90e2;
+      background: #f0f4ff;
+      border-radius: 50%;
+      width: 80px;
+      height: 80px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0 auto 20px;
+    }
+
+    .valeur-title {
+      font-weight: 700;
+      margin-bottom: 10px;
+    }
+
+    .valeur-text {
+      color: #6c757d;
+      font-size: 15px;
+    }
+
+    .section-title {
+      font-weight: 800;
+      text-align: center;
+      margin-top: 60px;
+      margin-bottom: 30px;
+    }
